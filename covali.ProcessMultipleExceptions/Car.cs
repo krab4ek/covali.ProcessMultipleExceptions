@@ -7,7 +7,7 @@ internal class Car
     public int CurrentSpeed { get; set; } = 0;
     public string PetName { get; set; } = string.Empty;
 
-    private bool carIsDead;
+    // private bool carIsDead;
 
     private Radio theMusicBox = new Radio();
 
